@@ -3,7 +3,7 @@
 #
 
 import pymongo
-from flask import Flask, request, render_template
+from flask import Flask,flash, request, render_template
 from flask_paginate import Pagination, get_page_args
 
 
