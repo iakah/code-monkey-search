@@ -84,8 +84,8 @@ class Crawler():
             except KeyError:
                 pass
         
-        # close connection
-        client.close()
+    # close connection
+    client.close()
 
 
 crawler = Crawler()
